@@ -79,3 +79,4 @@ list of sites to ignore (one site name per line).
 
 Apache License 2.0 © Sherlock Project<br/>
 Original Creator - **Siddharth Dushantha**
+
