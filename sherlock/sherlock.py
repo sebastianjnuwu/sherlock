@@ -5,9 +5,7 @@ import re
 import sys
 from argparse import ArgumentParser, RawDescriptionHelpFormatter
 from time import monotonic
-
 import requests
-
 from requests_futures.sessions import FuturesSession
 from torrequest import TorRequest
 from result import QueryStatus
@@ -15,10 +13,8 @@ from result import QueryResult
 from notify import QueryNotifyPrint
 from sites import SitesInformation
 from colorama import init
-
 module_name = "Sherlock: Find Usernames Across Social Networks"
-__version__ = "0.14.0"
-
+__version__ = "0.12.0"
 
 class SherlockFuturesSession(FuturesSession):
     def request(self, method, url, hooks=None, *args, **kwargs):
