@@ -143,7 +143,7 @@ class QueryNotifyPrint(QueryNotify):
         Nothing.
         """
 
-        title = "Checking username"
+        title = "going back "
 
         print(Style.BRIGHT + Fore.GREEN + "[" +
               Fore.YELLOW + "*" +
