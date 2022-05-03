@@ -1,5 +1,5 @@
 # SHERLOCK 
 
-![](https://asciinema.org/a/223115)
+![](https://asciinema.org/a/233089)
 
 
