@@ -34,3 +34,11 @@ If you are using Anaconda in Windows, using 'python3' might not work. Use 'pytho
 
 # Docker Notes
 
+If docker is installed you can build an image and run this as a container.
+```
+docker build -t mysherlock-image .
+```
+Once the image is built, sherlock can be invoked by running the following:
+```
+docker run --rm -t mysherlock-image user123
+```
