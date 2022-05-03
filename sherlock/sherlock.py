@@ -14,7 +14,7 @@ from notify import QueryNotifyPrint
 from sites import SitesInformation
 from colorama import init
 module_name = "Sherlock: Find Usernames Across Social Networks"
-__version__ = "0.12.0"
+__version__ = "0.14.0"
 
 class SherlockFuturesSession(FuturesSession):
     def request(self, method, url, hooks=None, *args, **kwargs):
