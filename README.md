@@ -79,20 +79,6 @@ docker-compose run sherlock -o /opt/sherlock/results/text.txt user123
 
 ```
 
-## Contributing
-
-We would love to have you help us with the development of Sherlock. Each and every contribution is greatly valued!
-
-Here are some things we would appreciate your help on:
-
-- Addition of new site support ¹
-
-- Bringing back site support of [sites that have been removed](removed_sites.md) in the past due to false positives
-
-[1] Please look at the Wiki entry on [adding new sites](https://github.com/sherlock-project/sherlock/wiki/Adding-Sites-To-Sherlock)
-
-to understand the issues.
-
 ## Tests
 
 Thank you for contributing to Sherlock!
