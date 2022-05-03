@@ -98,11 +98,8 @@ Sherlock.  This invocation hides the progress text that Sherlock normally
 outputs, and instead shows the verbose output of the tests.
 
 ```
-
 $ cd sherlock/sherlock
-
 $ python3 -m unittest tests.all --verbose
-
 ```
 
 Note that we do currently have 100% test coverage.  Unfortunately, some of
@@ -125,6 +122,6 @@ list of sites to ignore (one site name per line).
 
 ## License
 
-MIT © Sherlock Project<br/>
+Apache License 2.0 © Sherlock Project<br/>
 
 Original Creator - **Siddharth Dushantha**
