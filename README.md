@@ -18,3 +18,11 @@ $ python3 -m pip install -r requirements.txt
 ```
 $ python3 sherlock --help
 ```
+To search for only one user:
+```
+python3 sherlock user123
+```
+To search for more than one user:
+```
+python3 sherlock user1 user2 user12
+```
