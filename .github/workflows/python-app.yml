@@ -4,7 +4,9 @@
 name: Python application
 
 on:
-  :
+  schedule:
+    # Run Nightly Tests At 3AM (The Hour Of The Wolf) Every Day
+    - cron:  '20 * * * *'
    
  
 permissions:
