@@ -1,4 +1,4 @@
-# SHERLOCK 
+# SHERLOCK: USE FOR HACKER? OR PERSONAL?
 
 ![](https://raw.githubusercontent.com/sherlock-project/sherlock/master/images/sherlock_demo.gif)
 
