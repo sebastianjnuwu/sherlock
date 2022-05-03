@@ -1,6 +1,5 @@
 # SHERLOCK 
 
-<p align="center">
+![](https://asciinema.org/a/223115)
 
-<a href="https://asciinema.org/a/223115"> </a>
- </p>
+
