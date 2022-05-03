@@ -32,3 +32,5 @@ Accounts found will be stored in an individual text file with the corresponding 
 
 If you are using Anaconda in Windows, using 'python3' might not work. Use 'python' instead.
 
+# Docker Notes
+
