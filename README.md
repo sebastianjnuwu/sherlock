@@ -1,5 +1,5 @@
 # SHERLOCK 
 
-[![asciicast](https://asciinema.org/a/233089.svg)](https://asciinema.org/a/233089)
+[![asciicast](https://raw.githubusercontent.com/sherlock-project/sherlock/master/images/sherlock_demo.gif)
 
 
