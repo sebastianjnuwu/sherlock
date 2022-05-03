@@ -1,6 +1,5 @@
 # SHERLOCK: USE FOR HACKER? OR PERSONAL?
-
-  _"Hunt down social media accounts by username across social networks"_
+🔎   _"Hunt down social media accounts by username across social networks"_
 
 ![](https://raw.githubusercontent.com/sherlock-project/sherlock/master/images/sherlock_demo.gif)
 
