@@ -32,53 +32,6 @@ Accounts found will be stored in an individual text file with the corresponding 
 
 If you are using Anaconda in Windows, using 'python3' might not work. Use 'python' instead.
 
-# Docker Notes
-
-If docker is installed you can build an image and run this as a container.
-```
-docker build -t mysherlock-image .
-```
-Once the image is built, sherlock can be invoked by running the following:
-```
-docker run --rm -t mysherlock-image user123
-```
-The optional `--rm` flag removes the container filesystem on completion to prevent cruft build-up. See:
-https://docs.docker.com/engine/reference/run/#clean-up---rm
-
-
-
-Use the following command to access the saved results:
-
-```
-
-docker run --rm -t -v "$PWD/results:/opt/sherlock/results" mysherlock-image -o /opt/sherlock/results/text.txt user123
-
-```
-
-The ```-v "$PWD/results:/opt/sherlock/results"``` options tell docker to create (or use) the folder `results` in the
-
-present working directory and to mount it at `/opt/sherlock/results` on the docker container.
-
-The `-o /opt/sherlock/results/text.txt` option tells `sherlock` to output the result.
-
-Or you can use "Docker Hub" to run `sherlock`:
-
-```
-
-docker run theyahya/sherlock user123
-
-```
-
-### Using `docker-compose`
-
-You can use the `docker-compose.yml` file from the repository and use this command:
-
-```
-
-docker-compose run sherlock -o /opt/sherlock/results/text.txt user123
-
-```
-
 ## Tests
 
 Thank you for contributing to Sherlock!
